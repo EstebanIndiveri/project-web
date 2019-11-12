@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pagina web-Curso Js</title>
+    <!--Estilos CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link id="theme" rel="stylesheet" href="">
+   <link rel="stylesheet" href="css/jquery.switchbutton.css">
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- JQuery UI-->
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+  crossorigin="anonymous"></script>
+      <!--Slider-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!--Moment-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+    <!--Mis scripts-->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- Jquery UI, plugin switchbuttom-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+    <script src="js/jquery.switchButton.js"></script>
+
+    
+</head>
+<body>
+     <!--El switch del DarkMode localStorage switch -->
+     <div id="abrir">Ocultar</div>
+     <div id="selectTheme">
+            <form action="...">
+                        <div id="Darkmode">Dark mode:
+                            <br>
+                            <label for="great"></label><input type="checkbox" name="great" id="great">
+                 </form>
+                 </div>
+                </div>
+    <section id="global">
+        <!--cabecera-->
+        <header>
+            <div id="logo">
+                <h1>Proyecto js</h1>
+            </div>
+
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="reloj.html">Reloj</a></li>
+                        <li><a href="about.html">Sobre mi</a></li>
+                        <li><a href="contact.html">Contaco</a></li>
+                </ul>
+            </nav>
+        </header>
+<!--slider-->
+<div id="slider">
+        <div class="slider">
+                <div><img src="img/mount.jpg" title="Munt"alt="mount"></div>
+                <div><img src="img/carretera.jpg" title="Carret of earth" alt="Carret"></div>
+                <div><img width="100%" src="img/Lake2.png" title="Beautiful mount" alt="Mount with Carret"></div>
+              </div>
+</div>
+<!--Contenido-->
+<section id="content">
+    <div id="posts">
+        <!--Cargan posts desde Json-->
+    </div>
+
+    <aside id="sidebar">
+        <div id="about">
+            <h4><span>¿Quién soy</span></h4>
+            <img src="img/sideb.png" alt="sideb">
+            <p>Esteban Daniel Indiveri, Lic. en comunicación, estudiante de programación e ingeniería en Software. Apasionado por el mundo informatico desde pequeño. Planeo en un futuro poder realizar las ideas que tengo y plasmarlas en proyectos claves tanto webapps como apps en android e ios</p>
+        </div>
+        <div id="sesion"><p></p></div>
+        <div id="login">
+            <h4><span>Identificate</span></h4>
+            <form action="">
+                <label for="name">
+                    Nombre
+                </label>
+                <input type="text" name="name" id="form_name"/>
+
+                <label for="email">
+                        Nombre
+                    </label>
+                    <input type="text" name="email"/>
+
+                    <label for="password">
+                            Contraseña
+                        </label>
+                        <input type="password" name="password"/>
+
+                        <input type="submit" value="Entrar"/>
+            </form>
+        </div>
+    </aside>
+    <div class="clearfix"></div>
+    </section>
+    
+    </section>
+    <footer>
+            Powered by Esteban Indiveri &copy;
+
+            <a id="subir" href="#">Ir arriba</a>
+        </footer>
+</body>
+</html>
